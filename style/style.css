@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+      color: white;
+    background-color: black; 
+}
+
+p {
+    color: #ccc;
+}
+
+/* navbara-start */
+
+nav {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.logo img {
+    height: 250px;
+    width: 350px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 40px;
+    }
+    .radius {
+        border: 1px solid #ccc;
+        padding: 30px 60px;
+        border-radius: 60px;
+    }
+    .nav-control ul li {
+        display: inline-block;
+        font-size: 50px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+.icon {
+    margin-left: 15px;
+}
+
+.black {
+    background-color: red;
+    border: 1px solid red;
+    padding: 30px 70px;
+    border-radius: 70px;
+    margin: 25px;
+}
+.online-order {
+    border: 1px solid red;
+    padding: 50px 25px;
+    border-radius: 70px;
+    background-color: red;
+}
+.order-button {
+   border: 1px solid white;
+   background-color: white;
+    color: red;
+    font-size: 60px;
+    padding: 5px 15px;
+    border-radius: 500px;
+    margin: 20px;
+}
+
+/* navbar-end */
+
+/* slider-start */
+.slider {
+    overflow: hidden;
+}
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure img {
+    width: 20%;
+    float: left;
+    height: 2000px;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+/* slider-end */
+
+/* man-start */
+
+.text-control .inline {
+    display: inline;
+}
+.text-control {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 140px;
+}
+.images {
+    margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+.brand-button {
+    font-size: 50px;
+    position: relative;
+    left: 140px;
+    top: 40px;
+    border: 1px solid white;
+    padding: 50px 60px;
+    width: 450px;
+    border-radius: 100px;
+}
+.images img {
+    height: 400px;
+    width: 750px;
+    border-radius: 20px;
+}
+.relative {
+    position: relative;
+    left: 200px;
+    top: 60px;
+    width: 170px;
+    border: 0.01px solid #ccc;
+   padding: 40px 50px;
+   border-radius: 70px;
+   font-size: 40px;
+   width: 300px;
+}
+/* man-end */
+
+
+/* man-start */
+.theory {
+    margin-top: 500px;
+    line-height: 160px;
+}
+/* resturent-images start */
+.resturent {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    margin-top: 100px;
+}
+.red {
+    font-size: 50px;
+    color: red;
+    word-spacing: 8px;
+}
+.ATTA {
+    font-size: 140px;
+}
+.r-span {
+    font-size: 120px;
+    font-weight: 100;
+}
+.paragrap {
+    font-size: 60px;
+    color: #ccc;
+}
+.icon {
+    padding: 0 10px;
+    color: #ccc;
+    font-size: 50px;
+}
+.buttom {
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    border: 1px solid white;
+    padding: 30px 50px;
+    border-radius: 70px;
+    margin-top: 200px;
+}
+.resturent-img img {
+    width: 1700px;
+    height: 1000px;
+    border-radius: 20px;
+}
+
+/* Express franchise */
+
+.express {
+    max-width: 1100px;
+}
+.express-img {
+    width: 1100px;
+    height: 700px;
+}
+.get-directione {
+    font-size: 50px;
+    border: 1px solid white;
+    background-color: black;
+    padding: 30px 60px;
+    color: white;
+    border-radius: 70px;
+    margin-top: 100px;
+}
+.franchise-icon {
+    color: red;
+    font-size: 70px;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.Express-Franchises {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* village */
+ .village-imag {
+    height: 1400px;
+    width: 2300px;
+ }
+ .village {
+    display: flex;
+    gap: 60px;
+ }
+ .village, .village-theory {
+    align-items: center;
+ }
+ .annimation1 {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+ }
+ .annimatom-imag {
+    height: 700px;
+    width: 1100px;
+    border-radius: 20px;
+}
+
+/* social feed */
+.soical-feed {
+    display: flex;
+    gap: 50px;
+}
+.soical-imag {
+    height: 800px;
+    width: 900px;
+}
+.soical-about {
+    max-width: 1100px;
+}
+/* footer */
+.logo-relative {
+    position: relative;
+    top: 80px;
+}
+.site-link {
+    line-height: 120px;
+}
+.contact {
+    line-height: 100px;
+}
+.contact-p {
+    line-height: 60px;
+}
+.contact-h {
+    line-height: 120px;
+}
+.footer-icon {
+    font-size: 60px;
+    border: 1px solid red;
+    background-color: red;
+    padding: 30px 30px;
+    border-radius: 60px;
+   
+}
+.icon-relative {
+    position: relative;
+    top: 110px;
+}
+.icon-relative1 {
+    margin-left: 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 350px;
+}
+ @media (max-width: 786px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    .nav-control ul li radius {
+        display: inline-block;
+        font-size: 10px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    
+    .logo img {
+        height: 100px;
+        width: 150px;
+        padding-top: 10px;
+        position: relative;
+        bottom: 20px;
+    }
+    .nav-control ul li {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .radius {
+        border: 1px solid white;
+        padding: 40px 40px;
+        border-radius: 70px;
+    }
+    .online-order {
+        border: 1px solid red;
+        padding: 10px 20px;
+        border-radius: 30px;
+        background-color: red;
+    }
+    .order-button {
+       border: 1px solid white;
+       background-color: white;
+        color: red;
+        font-size: 20px;
+        padding: 5px 10px;
+        border-radius: 100px;
+        margin: 2px;
+    }
+    .radius  {
+        border: 1px solid white;
+        padding:5px 10px;
+        border-radius: 30px;
+        width: 180px;
+        font-size: 10px;
+    }
+    .black {
+        background-color: red;
+        border: 1px solid red;
+        padding: 10px 20px;
+        border-radius: 40px;
+        width: 190px;
+    }
+    .slider figure img {
+        height: 300px;
+    }
+    .images {
+        margin-top: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 20px;
+    }
+    .images img {
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+    }   
+    .relative {
+        position: relative;
+        right: 0px;
+        bottom: 30px;
+        width: 80px;
+        border: 0.01px solid #ccc;
+       padding: 10px 20px;
+       border-radius: 30px;
+       font-size: 10px;
+    }
+    .resturent {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 100px;
+    }
+    .red {
+        font-size: 20px;
+        color: red;
+        word-spacing: 2px;
+    }
+    .ATTA {
+        font-size: 50px;
+    }
+    .r-span {
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .paragrap {
+        font-size: 15px;
+        color: #ccc;
+    }
+    .icon {
+        padding: 0 5px;
+        color: #ccc;
+        font-size: 25px;
+    }
+    .buttom {
+        background-color: transparent;
+        color: white;
+        font-size: 25px;
+        border: 1px solid white;
+        padding: 15px 25px;
+        border-radius: 40px;
+        margin-top: 200px;
+    }
+    .resturent-img img {
+        width: 340px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .buttom {
+        background-color: transparent;
+        color: white;
+        font-size: 15px;
+        border: 1px solid white;
+        padding: 15px 30px;
+        border-radius: 40px;
+        margin-top: 50px;
+    }
+    
+
+ }
+ a {
+    text-decoration: none;
+    color: white;
+ }
+ .im-button {
+    height: 150px;
+    width: 400px;
+    position: relative;
+    top: 400px;
+    right: 450px;
+ }
+ .right-s {
+    height: 150px;
+    width: 400px;
+    position: relative;
+    top: 600px;
+    right: 850px;
+ }

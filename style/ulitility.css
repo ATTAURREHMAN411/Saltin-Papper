@@ -1,0 +1,159 @@
+
+html {
+    /* font-size: 16.2%; */
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.text-center {
+    text-align: center;
+}
+.row {
+    flex-direction: row;
+}
+.colume {
+    flex-direction: column;
+}
+.height {
+    height: 100px;
+}
+.line-height {
+    line-height: 150px;
+}
+.table-b {
+    width: 550px;
+} {
+    
+}
+.font {
+    font-size: 150px;
+    font-weight: 100;
+}
+
+.font2 {
+    font-size: 170px;
+    font-weight: 400;
+}
+.font1 {
+    font-size: 250px;
+    font-weight: 700;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;   
+}
+.p-height {
+    color: #ccc;
+    font-size: 50px;
+    line-height: 90px;
+    padding-bottom: 50px;
+}
+.widht {
+    width: 350px;
+    font-size: 35px;
+}
+
+.imag-relative {
+    position: relative;
+    right: 280px;
+}
+.acstra-margin {
+    margin-top: 250px;
+}
+.t-margin {
+    margin-top: 200px;
+}
+.margin {
+    margin-top: 150px;
+}
+.margin1 {
+    margin-top: 250px;
+}
+.h-margin {
+    margin-top: 100px;
+}
+.d-margin {
+    margin-top: 260px;
+}
+.font-weight {
+    font-weight: 300;
+}
+.font3 {
+    font-size: 100px;
+}
+.font4 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+.font5 {
+    font-size: 50px;
+}
+.font6 {
+    font-size: 60px;
+    font-weight: 00;
+}
+.green {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+}
+.icon-color {
+    color: #28a745;
+}
+
+.h1-font {
+      font-size: 200px;
+}
+
+.h1-font1 {
+    font-size: 150px;
+}
+.margin-top {
+    margin-top: 300px;
+}
+.express-font2 {
+    font-size: 110px;
+    font-weight: bold;
+}
+.express-font {
+    font-size: 60px;
+}
+.fa-solid fa-square-arrow-up-right {
+    background-color: white;
+    color: red;
+}
+
+@media (max-width: 786px) {
+    .font {
+        font-size: 30px;
+        font-weight: 100;
+    }
+    
+    .font2 {
+        font-size: 40px;
+        font-weight: 100;
+    }
+    .font1 {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    .p-height {
+        color: #ccc;
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 50px;
+    }
+    .widht {
+        width: 150px;
+        font-size: 10px;
+    }
+}
